@@ -1,0 +1,36 @@
+
+
+.page-logo{
+    width: 127px;
+    height: 81px;
+    background-color: black;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+li{
+    display: inline;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+figcaption{
+    width: 193px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 40px;
+}
+
+.banner{
+    width: 193px;
+    height: 186px;
+    background-color: black;
+}
+
+.home-button{
+    margin-left: 130px;
+}
