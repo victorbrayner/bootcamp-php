@@ -1,0 +1,110 @@
+.page-logo{
+    width: 127px;
+    height: 81px;
+    background-color: black;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+li{
+    display: inline;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+    margin-bottom: 100px;
+}
+
+figcaption{
+    width: 193px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 40px;
+}
+
+.banner{
+    width: 193px;
+    height: 186px;
+    background-color: black;
+}
+
+.home-button{
+    margin-left: 130px;
+}
+
+.section-title{
+    margin: 45px;
+}
+
+.qs-logo{
+    width: 175px;
+    height: 165px;
+    background-color: black;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: .9em;
+    margin-bottom: 100px;
+}
+
+thead,
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+    
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+th{
+    padding: 8px;
+    width: 180px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+label{
+    margin-right: 50px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+.box-dicas{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.box-dicas p{
+    padding: 10px;
+}
+
+.box-dicas h3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-button{
+    margin-left: 650px;
+}

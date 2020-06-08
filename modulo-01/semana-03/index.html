@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Semana 03 - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive.css">
+</head>
+<body>
+    <nav>
+        <figure class="page-logo"></figure>
+        <div class="navbar">
+            <ul class="menu">
+                <li><a class="menu-link" href="#home">Home</a></li>
+                <li><a class="menu-link" href="#quem-somos">Quem Somos</a></li>
+                <li><a class="menu-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="card grid-25">
+            <figure class="banner"></figure>
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae aliquet ipsum. Ut bibendum viverra augue a gravida. Aliquam euismod, nisl et mollis mollis, nulla turpis accumsan sapien. </figcaption>
+            <button class="home-button">Leia Mais</button>
+        </div>
+        <div class="card grid-25">
+            <figure class="banner"></figure>
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae aliquet ipsum. Ut bibendum viverra augue a gravida. Aliquam euismod, nisl et mollis mollis, nulla turpis accumsan sapien. </figcaption>
+            <button class="home-button">Leia Mais</button>
+        </div>
+        <div class="card grid-25">
+            <figure class="banner"></figure>
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae aliquet ipsum. Ut bibendum viverra augue a gravida. Aliquam euismod, nisl et mollis mollis, nulla turpis accumsan sapien. </figcaption>
+            <button class="home-button">Leia Mais</button>
+        </div>
+        <div class="card grid-25">
+            <figure class="banner"></figure>
+            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae aliquet ipsum. Ut bibendum viverra augue a gravida. Aliquam euismod, nisl et mollis mollis, nulla turpis accumsan sapien. </figcaption>
+            <button class="home-button">Leia Mais</button>
+        </div>
+    </section>
+
+    <section id="quem-somos">
+        <h2 class="section-title">Quem Somos</h2>
+        <div class="col-2 grid-20">
+            <figure class="qs-logo"></figure>
+        </div>
+        <div class="col-2 grid-80">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed suscipit ipsum. Nullam tristique ullamcorper magna in aliquet. Nunc non elit nec urna vestibulum ullamcorper eu eget lectus. Nam porta lacus blandit pretium tristique. Pellentesque sollicitudin metus a est interdum, in semper sem accumsan. Praesent faucibus congue massa, non malesuada nulla porta a. Donec id sem euismod, consectetur diam vel, commodo risus. In hac habitasse platea dictumst. </p>
+            <p>Nullam ut mauris a mauris sagittis imperdiet. Cras eget ipsum ultricies, luctus dui id, gravida leo. Ut rhoncus nisi vel commodo blandit. Mauris ultrices congue quam non egestas. Sed at tristique risus. Nullam maximus urna sit amet lectus accumsan, at ornare risus aliquam. Suspendisse venenatis enim ac massa aliquam, quis suscipit enim posuere. Fusce at lectus nisl. Pellentesque imperdiet convallis lacus, sit amet sagittis diam mollis eget. Nulla sed pretium tortor. Quisque vel malesuada dui. Cras convallis mauris pellentesque justo suscipit, in dignissim turpis accumsan. Curabitur in nisi malesuada, condimentum diam eget, lobortis ante. Cras ornare congue molestie. Sed facilisis dolor sed suscipit tincidunt. Aenean ornare risus a justo vehicula, id elementum orci faucibus. </p>
+            
+            <h3>Quadro de Funcionários</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Data contratação</th>
+                        <th>Matrícula</th>
+                        <th>Salário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Elias</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="1" rowspan="2">1500</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" rowspan="2">Isabel</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>Veronica</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>5000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Salário Total</th>
+                        <td colspan="3"></td>
+                        <th>8500</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2 class="section-title">Contato</h2>
+        <div class="col-3 grid-70">
+            <form action="">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+        
+                <label for="email">E-mail</label>
+                <input type="email" name="" id="email">
+                
+                <br><br><br>
+                
+                <label for="senha">Senha</label>
+                <input type="password" name="" id="senha">
+                
+                
+                <label for="sexo">Sexo</label>
+                <input type="radio" name="" id="sexo"> Homem
+                <input type="radio" name="" id="sexo"> Mulher
+                
+                <br><br><br>
+                
+                <label for="estado">Estado</label>
+                <select name="" id="estado">
+                    <option value="">São Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Paraná</option>
+                    <option value="">Rio Grande do Sul</option>
+                </select>
+                
+                <br><br><br>
+
+                <label for="fale">Fale um pouco sobre você</label>
+                <br>
+                <textarea name="" id="" cols="100" rows="10"></textarea>
+
+                <br>
+
+                <button class="contact-button">Enviar</button>
+            </form>
+        </div>
+
+        <div class="col-3 grid-30">
+            <div class="box-dicas">
+                <h3>Dicas</h3>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec quis nisi ornare, semper nibh ac, finibus enim. Sed a dolor vel diam dignissim laoreet sed quis diam. Quisque laoreet, quam id blandit congue, purus turpis interdum augue, sed accumsan mauris enim vel ante. Nulla facilisi. Ut sagittis ac lectus ac rutrum. Nullam pharetra vulputate placerat. Nulla suscipit semper semper. Etiam neque leo, ullamcorper nec lacinia in, fermentum id ligula. Quisque imperdiet ex ut eleifend semper.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
