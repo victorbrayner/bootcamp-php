@@ -81,3 +81,30 @@ td{
     text-align: center;
     border: 1px solid rgb(200, 200, 200);
 }
+
+label{
+    margin-right: 50px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+.box-dicas{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.box-dicas p{
+    padding: 10px;
+}
+
+.box-dicas h3{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-button{
+    margin-left: 650px;
+}
