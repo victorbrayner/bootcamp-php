@@ -34,27 +34,28 @@
                     name="nome"
                     style="width: 30em;"
                     value=""
+                    placeholder="José da Silva"
                   />
                 </div>
                 <div class="campo">
                   <label for="snome">Email</label>
-                  <input type="email" name="" id="" style="width: 30em;" />
+                  <input type="email" name="" id="email" style="width: 30em;" placeholder="nome@email.com" />
                 </div>
               </fieldset>
               <fieldset class="grupo">
                 <div class="campo">
                   <label for="">Senha</label>
-                  <input type="password" name="" id="" style="width: 30em;" />
+                  <input type="password" name="" id="senha" style="width: 30em;" placeholder="******" />
                 </div>
                 <div class="campo">
                   <label for="">Confirmar senha</label>
-                  <input type="password" name="" id="" style="width: 30em;" />
+                  <input type="password" name="" id="confSenha" style="width: 30em;" placeholder="******" />
                 </div>
               </fieldset>
               <fieldset class="grupo">
                 <div class="campo">
                   <label for="">Sexo</label>
-                  <select name="sexo" id="sexo" style="width: 30em;">
+                  <select name="sexo" id="sexo" style="width: 31.6em;">
                     <option value="">--</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Feminino">Feminino</option>
@@ -62,32 +63,34 @@
                 </div>
                 <div class="campo">
                   <label for="">Data de Nascimento</label>
-                  <input type="text" name="" id="" style="width: 30em;" />
+                  <input type="text" name="" id="nasc" style="width: 30em;" placeholder="dd/mm/aaaa"/>
                 </div>
               </fieldset>
               <div class="campo">
                 <label for="mensagem">Conte sobre você</label>
                 <textarea
-                  rows="6"
+                  rows="5"
                   style="width: 97%;"
                   id="mensagem"
                   name="mensagem"
+                  placeholder="Mensagem"
                 ></textarea>
               </div>
               <div class="grupo">
                   <div class="campo">
                       <div class="send-button">
-                        <button type="submit" name="submit">Enviar</button>
+                        <button type="submit" name="submit" id="botaoEnviar">Enviar</button>
                       </div>
                   </div>
                   <div class="campo">
-                      <div class="alertas"></div>
+                      <div id="alertas"></div>
                   </div>
               </div>
-            </fieldset>
+            </fieldset> 
           </form>
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
