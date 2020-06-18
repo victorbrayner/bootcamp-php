@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+.page-logo {
+  width: 50px;
+  height: 47px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: white;
+}
+
+.cadastro-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cadastro-box {
+    width: 900px;
+    height: 575px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 25px;
+    display: flex;
+    align-self: flex-start;
+    color: #666;
+}
+
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #666;
+  display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo select{
+    margin-right: 8px;
+}
+
+.campo select option {
+    padding-right: 1em;
+  }
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #ffc;
+}
+
+.alertas{
+    width: 98%;
+    height: 100px;
+    background-color: #ffc;
+    border: 1px solid black;
+}
+
+.send-button{
+    display: flex;
+    justify-content: end;
+}
+
+.send-button button{
+    border: 0;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background: #666;
+    color: #fff;
+    margin-right: 18px;
+}

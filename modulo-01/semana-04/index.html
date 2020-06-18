@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="unsemantic-grid-responsive.css" />
     <title>Exercício - Semana 04</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <ul class="menu">
+          <figure class="page-logo"></figure>
+          <li><a class="menu-link" href="">Quem Somos</a></li>
+          <li><a class="menu-link" href="">Contato</a></li>
+          <li><a class="menu-link" href="">Cadastro</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="cadastro">
+      <div class="cadastro-container">
+        <div class="cadastro-box">
+          <h1>Cadastro</h1>
+          <form id="formulario" autocomplete="off">
+            <fieldset>
+              <fieldset class="grupo">
+                <div class="campo">
+                  <label for="nome">Nome</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    style="width: 30em;"
+                    value=""
+                  />
+                </div>
+                <div class="campo">
+                  <label for="snome">Email</label>
+                  <input type="email" name="" id="" style="width: 30em;" />
+                </div>
+              </fieldset>
+              <fieldset class="grupo">
+                <div class="campo">
+                  <label for="">Senha</label>
+                  <input type="password" name="" id="" style="width: 30em;" />
+                </div>
+                <div class="campo">
+                  <label for="">Confirmar senha</label>
+                  <input type="password" name="" id="" style="width: 30em;" />
+                </div>
+              </fieldset>
+              <fieldset class="grupo">
+                <div class="campo">
+                  <label for="">Sexo</label>
+                  <select name="sexo" id="sexo" style="width: 30em;">
+                    <option value="">--</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                  </select>
+                </div>
+                <div class="campo">
+                  <label for="">Data de Nascimento</label>
+                  <input type="text" name="" id="" style="width: 30em;" />
+                </div>
+              </fieldset>
+              <div class="campo">
+                <label for="mensagem">Conte sobre você</label>
+                <textarea
+                  rows="6"
+                  style="width: 97%;"
+                  id="mensagem"
+                  name="mensagem"
+                ></textarea>
+              </div>
+              <div class="grupo">
+                  <div class="campo">
+                      <div class="send-button">
+                        <button type="submit" name="submit">Enviar</button>
+                      </div>
+                  </div>
+                  <div class="campo">
+                      <div class="alertas"></div>
+                  </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
